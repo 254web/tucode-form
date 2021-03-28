@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<packaging>war</packaging>
+	<!--<packaging>war</packaging>-->
 	<groupId>ke.co.tucode</groupId>
 	<artifactId>tucode-form</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -84,11 +84,11 @@
 		</dependency>
 
 				<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
-                <dependency>
+             <!--   <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-tomcat</artifactId>
                     <scope>provided</scope>
-                </dependency>
+                </dependency>-->
 
 	</dependencies>
 
