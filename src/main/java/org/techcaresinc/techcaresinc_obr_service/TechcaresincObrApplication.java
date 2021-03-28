@@ -12,18 +12,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @SpringBootApplication
 public class TechcaresincObrApplication extends SpringBootServletInitializer {
 
-/*
-	*/
-/* techcares inc - a solution to your worries, deployment to external server*//*
-
-	*/
-/* comment the SpringApplicationBuilder for running test without deploy to external server*//*
+/* techcares inc - a solution to your worries, deployment to external server */
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(TechcaresincObrApplication.class);
 	}
-*/
 
 	@RequestMapping (value = "/")
 	public String root (Model model) {
